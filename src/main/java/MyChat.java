@@ -56,7 +56,6 @@ public class MyChat {
                     writer.write(message);
                     writer.write("\r\n");
                     writer.flush();
-                    appendMessage(message); // 将消息追加到 JTextArea
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
